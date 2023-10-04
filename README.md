@@ -9,7 +9,6 @@ Ce script Bash permet d'effectuer une enumeration de réseau en utilisant l'outi
 - [Installation](#installation)
 - [Utilisation](#utilisation)
 - [Fonctionnalités](#fonctionnalités)
-- [Contribuer](#contribuer)
 - [Licence](#licence)
 
 ## Installation
@@ -31,6 +30,14 @@ Pour utiliser ce script, exécutez-le en utilisant le terminal de votre machine 
 ```
 
 Le script vous demandera d'entrer l'adresse IP du sous-réseau que vous souhaitez scanner (par exemple, 192.168.1.0/24). Une fois l'adresse IP du sous-réseau spécifiée, le script utilisera Nmap pour effectuer un scan ping sur le sous-réseau et enregistrera les résultats dans un fichier texte (scan.txt).
+
+## Fonctionnalités
+
+Ce script offre les fonctionnalités suivantes :
+
+- **Enumeration rapide des hôtes actifs sur un sous-réseau** : Il utilise Nmap pour découvrir les hôtes qui sont actuellement en ligne sur le sous-réseau spécifié.
+
+- **Enregistrement des résultats dans un fichier texte** : Les résultats de l'enumeration sont enregistrés dans un fichier texte nommé `network_enum.txt`. Vous pouvez consulter ce fichier pour obtenir une liste des hôtes actifs sur le sous-réseau, ce qui peut être utile pour la gestion et la référence future.
 
 ## Licence
 
