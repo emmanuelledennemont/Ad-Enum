@@ -1,5 +1,7 @@
 # Enumération de Réseau
 
+![Bash](https://img.shields.io/badge/Bash-blue)
+
 Ce script Bash permet d'effectuer une enumeration de réseau en utilisant l'outil Nmap. Il demande à l'utilisateur d'entrer l'adresse IP d'un sous-réseau à scanner, puis utilise Nmap pour trouver les hôtes actifs sur ce sous-réseau.
 
 **Note importante : Il est recommandé d'exécuter ce script dans un environnement contrôlé, tel qu'une machine virtuelle dédiée à des fins de tests de sécurité. L'utilisation de cet outil dans un réseau ou un système sans autorisation préalable peut être illégale. Assurez-vous d'obtenir l'autorisation appropriée avant de l'utiliser.**
